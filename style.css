@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" );
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap" );
+body{
+    background-color:antiquewhite;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 68px;
+    background-color: black;
+    color: white;
+}
+
+.brand img{
+    width: 60px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+nav ul li{
+    padding: 0 8px;
+}
+
+.container{
+    min-height: 60vh;
+    background-color: black;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    width: 70%;
+    margin: 23px auto;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url("wal.jpg");
+}
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icons{
+    margin: 12px 0;
+
+}
+
+.icons i{
+    cursor: pointer;
+}
+
+#progressBar{
+    width: 80vw;
+    text-align: center;
+    cursor: pointer;
+}
+
+.songItems{
+    height: 40px;
+    display: flex;
+    background-color: white;
+    width: 80%;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+
+ .songItems i{
+    padding: 12px;
+} 
+
+
+
+.songItems img{
+    width: 21px;
+    margin: 0 23px ;
+    /* border-radius: 34px; */
+}
+
+.timestamp{
+    margin: auto 12px;
+    padding: auto 12px;
+    height: auto;
+}
+
+.songItemContainer{
+    margin-top: 45px;
+}
+
+.songinfo{
+    position: absolute;
+    left: 10vw;
+    font-family: 'Raleway', sans-serif;
+
+}
+.songinfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+    margin: 1px 11px;
+}
+#mastersongname{
+    margin: 1px 11px;
+
+}
